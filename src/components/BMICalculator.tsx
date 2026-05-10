@@ -149,7 +149,7 @@ export default function BMICalculator() {
                   <button
                     onClick={calculateBMI}
                     disabled={!height || !weight}
-                    className="w-full bg-emerald-600 text-white py-4 rounded-lg hover:bg-emerald-700 transition-all font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                    className="w-full bg-emerald-600 text-white py-4 rounded-lg hover:bg-emerald-700 transition-all font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     Calculate BMI
                   </button>
